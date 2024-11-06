@@ -1,0 +1,374 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .svc__blk h3 {
+        font-size: 21px;
+    }
+
+    .svc__blk p {
+        font-size: 12px;
+    }
+
+    .client-blk p {
+        font-size: 13px;
+    }
+
+    .contact__content h1 {
+        font-size: 49px;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .svc__blk h3 {
+        font-size: 18px;
+    }
+
+    .svc__blk {
+        padding: 40px 20px;
+    }
+
+    .svc__blk p {
+        font-size: 12px;
+        min-height: 91px;
+    }
+
+    .client-blk p {
+        font-size: 13px;
+    }
+
+    .contact__content h1 {
+        font-size: 49px;
+    }
+
+    .client-blk h3 {
+        font-size: 20px;
+    }
+
+    .project__content ul li p {
+        font-size: 24px;
+    }
+
+    .work__blk p {
+        min-height: 125px;
+    }
+
+    .contact_box h1 {
+        font-size: 40px;
+    }
+
+    .contact_box p {
+        font-size: 16px;
+    }
+
+    .contact_box a {
+        font-size: 19px;
+    }
+
+    .contact_box a img {
+        width: 25px;
+    }
+
+
+}
+
+
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    :root {
+        --f18: 15px;
+        --f20: 16px;
+        --f22: 18px;
+        --f24: 20px;
+        --f28: 22px;
+        --f30: 24px;
+        --f32: 26px;
+        --f36: 28px;
+        --f40: 30px;
+        --f48: 32px;
+        --f55: 36px;
+
+    }
+
+    .svc__blk h3 {
+        font-size: 18px;
+    }
+
+    .svc__blk {
+        padding: 40px 20px;
+    }
+
+    .svc__blk p {
+        font-size: 12px;
+        min-height: 91px;
+    }
+
+    .client-blk p {
+        font-size: 13px;
+    }
+
+
+    .client-blk h3 {
+        font-size: 20px;
+    }
+
+    .project__content ul li p {
+        font-size: 20px;
+    }
+
+    .project__content ul li {
+        padding: 15px;
+        padding-left: 0;
+    }
+
+    .work__blk p {
+        min-height: 110px;
+    }
+
+    .contact_box h1 {
+        font-size: 40px;
+    }
+
+    .contact_box p {
+        font-size: 16px;
+    }
+
+    .contact_box a {
+        font-size: 19px;
+    }
+
+    .contact_box a img {
+        width: 25px;
+    }
+
+    .hero-wrp h1 {
+        font-size: 48px;
+    }
+
+    .hero-wrp p {
+        margin: 44px 0 70px;
+    }
+
+    .faq__content h1 {
+        margin: 60px 0 30px;
+    }
+
+    .contact__content {
+        text-align: center;
+    }
+
+    .contact__info {
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .contact__info a {
+        margin-inline: auto;
+    }
+
+    .hero-wrp a {
+        padding: 14px 32px;
+    }
+
+}
+
+
+/* small screen :320px. */
+@media (max-width: 767px) {
+    :root {
+        --f18: 15px;
+        --f20: 16px;
+        --f22: 18px;
+        --f24: 20px;
+        --f28: 22px;
+        --f30: 24px;
+        --f32: 26px;
+        --f36: 28px;
+        --f40: 30px;
+        --f48: 32px;
+        --f55: 36px;
+
+    }
+
+    .hero-wrp,
+    .svc__wrp,
+    .client-wrp,
+    .project-wrp,
+    .work-wrp,
+    .story-wrp,
+    .faq-wrp,
+    .contact-wrp {
+        padding: 28px;
+        border-radius: 20px;
+    }
+
+.svc__title h1 {
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+    .svc__blk h3 {
+        font-size: 18px;
+    }
+
+    .svc__blk {
+        padding: 40px 20px;
+    }
+
+    .svc__blk p {
+        font-size: 14px;
+    }
+
+    .client-blk p {
+        font-size: 13px;
+    }
+
+    .contact__content h1 {
+        font-size: 26px;
+    }
+
+    .client-blk h3 {
+        font-size: 20px;
+    }
+
+    .project__content ul li p {
+        font-size: 16px;
+    }
+
+    .project__content ul li {
+        padding: 15px;
+        padding-left: 0;
+    }
+
+    .work__blk p {
+        font-size: 16px;
+    }
+
+    .contact_box h1 {
+        font-size: 28px;
+    }
+
+    .contact_box p {
+        font-size: 16px;
+    }
+
+    .contact_box a {
+        font-size: 16px;
+    }
+
+    .contact_box a img {
+        width: 22px;
+    }
+
+    .hero-wrp h1 {
+        font-size: 32px;
+    }
+
+    .hero-wrp p {
+        margin: 35px 0 42px;
+        font-size: 18px;
+    }
+
+    .faq__content h1 {
+        margin: 30px 0 16px;
+        font-size: 24px;
+    }
+
+    .contact__content {
+        text-align: center;
+    }
+
+    .contact__info {
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .contact__info a {
+        margin-inline: auto;
+    }
+
+    .hero-wrp a {
+        padding: 12px 32px;
+        font-size: 14px;
+    }
+
+    .hero-wrp a img {
+        width: 15px;
+    }
+
+    .client__content p {
+        font-size: 18px;
+    }
+
+    .project__content h1 {
+        font-size: 30px;
+        margin: 38px 0 20px;
+    }
+
+    .contact_box {
+        padding: 30px;
+    }
+
+    .footer__text {
+        text-align: center;
+    }
+
+    .footer__logo {
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .footer-wrp {
+        border-radius: 20px;
+    }
+    .header-wrp {
+        padding: 20px 25px;
+    }
+    
+    .hero_img {
+        display: none;
+    }
+    
+    .project-wrp img.world-img {
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .work__content p {
+        margin-top: 30px;
+    }
+    
+    .story__content i {
+        display: none;
+    }
+    
+    .story__accordian button {
+        font-size: 18px;
+        padding: 18px;
+    }
+    
+    .faq__content .accordion-item button {
+        font-size: 18px;
+    }
+    
+    .contact_img {
+        margin-bottom: 20px;
+    }
+    
+    .footer__logo a {
+        font-size: 18px;
+        justify-content: center;
+    }
+
+}
+
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+
+}
